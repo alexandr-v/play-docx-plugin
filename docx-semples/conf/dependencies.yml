@@ -1,0 +1,12 @@
+# Application dependencies
+
+require:
+    - play
+    - ru.purecode -> docx 0.1
+
+repositories:
+    - purecode:
+        type: local
+        artifact: "${application.path}/../docx/dist/[module]-[revision].zip"
+        contains:
+            - ru.purecode -> *

@@ -1,0 +1,9 @@
+*.classpath
+*.project
+docx-semples/eclipse/
+docx-semples/.settings/
+docx-semples/modules/
+docx-semples/tmp/
+docx/.settings/
+docx/eclipse/
+docx/lib/

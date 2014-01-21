@@ -1,0 +1,5 @@
+self: play -> docx 0.1
+
+require:
+    - play
+    - org.docx4j -> docx4j 3.0.0
